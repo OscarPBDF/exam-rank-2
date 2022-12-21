@@ -1,0 +1,34 @@
+/*
+Assignment name  : swap_bits
+Expected files   : swap_bits.c
+Allowed functions:
+--------------------------------------------------------------------------------
+
+Write a function that takes a byte, swaps its halves (like the example) and
+returns the result.
+
+Your function must be declared as follows:
+
+unsigned char	swap_bits(unsigned char octet);
+
+Example:
+
+  1 byte
+_____________
+ 0100 | 0001 --> 65
+     \ /
+     / \
+ 0001 | 0100 --> 20
+*/
+
+unsigned char	swap_bits(unsigned char octet)
+{
+	octet = (octet >> 4) | 	(octet << 4);
+	return (octet);
+}
+
+#include <stdio.h>
+int main()
+{
+	printf("%i", swap_bits(20));
+}
