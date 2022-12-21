@@ -25,12 +25,12 @@ $*/
 
 #include <unistd.h>
 
-int iter(char *str, char word, int pos)
+int iter(char *str, char letter, int pos)
 {
 	int i = 0;
 	while(str[i] && (i < pos || pos == -1))
 	{
-		if(str[i] == word)
+		if(str[i] == letter)
 		{
 			i++;
 			return(1);
@@ -45,7 +45,6 @@ void inter(char *str1, char *str2)
 {
 	int	i = 0;
 
-	(void)str2;
 	while(str1[i])
 	{
 		if(!iter(str1, str1[i], i) && iter(str2, str1[i], -1))
