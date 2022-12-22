@@ -15,7 +15,7 @@ just displays a newline.
 
 You can assume the string have no mistakes or extraneous characters. Negative
 numbers, in input or output, will have one and only one leading '-'. The
-result of the operation fits in an int.
+result of the operation fits in an int. 
 
 Examples:
 

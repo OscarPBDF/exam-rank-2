@@ -20,7 +20,7 @@ $>./inter ddf6vewg64f gtwthgdwthdwfteewhrtag6h4ffdhsd | cat -e
 df6ewg4$
 $>./inter "rien" "cette phrase ne cache rien" | cat -e
 rien$
-$>./inter | cat -e
+$>./inter | cat -e 
 $*/
 
 #include <unistd.h>

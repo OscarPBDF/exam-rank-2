@@ -6,7 +6,7 @@ Allowed functions: None
 Reproduce exactly the behavior of the function strcspn
 (man strcspn).
 
-The function should be prototyped as follows:*/
+The function should be prototyped as follows:*/ 
 
 #include <string.h>
 #include <stdio.h>

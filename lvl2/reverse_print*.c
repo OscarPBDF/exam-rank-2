@@ -9,16 +9,16 @@ example) and returns the result.
 
 Your function must be declared as follows:
 
-unsigned char	reverse_bits(unsigned char octet);
+unsigned char	reverse_bits(unsigned char octet); 
 
 Example:
 
   1 byte
 _____________
- 00100110
+ 0010 0110 =====> 38
 	||
 	\/
- 01100100
+ 0110 0100 =====> 100
 */
 
 #include <unistd.h>
@@ -28,17 +28,11 @@ unsigned char	reverse_bits(unsigned char octet)
 	int 			i = 0;
 	int				j = 0;
 	unsigned char 	bit = 0;
-
-
+	
 	while (i < 8)
 	{
 		if(octet & (1 << i))
-		{
-			bit |= octet << i;
-			write(1, "1-", 2);
-		}
-		else
-			write(1, "0-", 2);
+			bit |= 1 << (7 - i);
 		i++;
 	}
 	return(bit);
@@ -47,9 +41,9 @@ unsigned char	reverse_bits(unsigned char octet)
 #include <stdio.h>
 int main(void)
 {
-	int nbr = 38;
+	int nbr = 132;
 
-	printf("%i\n",nbr);
+	printf("%i",nbr);
 	
 	printf("----->%i", reverse_bits(nbr));
 }

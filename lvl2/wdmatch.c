@@ -21,7 +21,7 @@ $>./wdmatch "faya" "fgvvfdxcacpolhyghbred" | cat -e
 $
 $>./wdmatch "quarante deux" "qfqfsudf arzgsayns tsregfdgs sjytdekuoixq " | cat -e
 quarante deux$
-$>./wdmatch "error" rrerrrfiiljdfxjyuifrrvcoojh | cat -e
+$>./wdmatch "error" rrerrrfiiljdfxjyuifrrvcoojh | cat -e 
 $
 $>./wdmatch | cat -e
 $

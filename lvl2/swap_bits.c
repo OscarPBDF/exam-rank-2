@@ -9,7 +9,7 @@ returns the result.
 
 Your function must be declared as follows:
 
-unsigned char	swap_bits(unsigned char octet);
+unsigned char	swap_bits(unsigned char octet); 
 
 Example:
 

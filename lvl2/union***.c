@@ -22,7 +22,7 @@ $>./union "rien" "cette phrase ne cache rien" | cat -e
 rienct phas$
 $>./union | cat -e
 $
-$>
+$> 
 $>./union "rien" | cat -e
 $
 $>

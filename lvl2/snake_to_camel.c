@@ -16,7 +16,7 @@ except for the first one.
 Examples:
 $>./camel_to_snake "here_is_a_snake_case_word"
 hereIsASnakeCaseWord
-$>./camel_to_snake "hello_world" | cat -e
+$>./camel_to_snake "hello_world" | cat -e 
 helloWorld$
 $>./camel_to_snake | cat -e
 $

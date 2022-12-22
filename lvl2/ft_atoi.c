@@ -8,7 +8,7 @@ and returns it.
 
 It works much like the standard atoi(const char *str) function, see the man.
 
-Your function must be declared as follows:*/
+Your function must be declared as follows:*/ 
 
 #include <stdio.h>
 #include <stdlib.h>

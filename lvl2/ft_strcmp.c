@@ -5,7 +5,7 @@ Allowed functions:
 
 Reproduce the behavior of the function strcmp (man strcmp).
 
-Your function must be declared as follows:*/
+Your function must be declared as follows:*/ 
 
 #include <string.h>
 #include <stdio.h>

@@ -12,7 +12,7 @@ The function should be prototyped as follows:*/
 //Compara cada char del primer str con los del segundo. Si encuentra un char NO repetido, para y 
 //devuelve la posicion del str desde donde los chars no son repetidos
 //(no tiene en cuenta chars repetidos que aparezcan despues de un char no-repetido). 
-//Si todos son repetidos, devuelve la longitud del primer str o la posicion del \0
+//Si todos son repetidos, devuelve la longitud del primer str o la posicion del \0 
 
 #include <string.h>
 size_t	ft_strspn(const char *s, const char *accept)

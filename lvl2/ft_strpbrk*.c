@@ -7,7 +7,7 @@ Allowed functions: None
 Reproduce exactly the behavior of the function strpbrk
 (man strpbrk).
 
-The function should be prototyped as follows:*/
+The function should be prototyped as follows:*/ 
 
 #include <stdio.h>
 #include <string.h>

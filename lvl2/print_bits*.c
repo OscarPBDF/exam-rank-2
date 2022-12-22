@@ -11,7 +11,7 @@ Your function must be declared as follows:
 
 void	print_bits(unsigned char octet);
 
-Example, if you pass 2 to print_bits, it will print "00000010"
+Example, if you pass 2 to print_bits, it will print "00000010" 
 */
 
 #include <unistd.h>

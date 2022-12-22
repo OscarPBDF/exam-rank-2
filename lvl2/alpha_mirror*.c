@@ -9,7 +9,7 @@ after replacing each alphabetical character by the opposite alphabetical
 character, followed by a newline.
 
 'a' becomes 'z', 'Z' becomes 'A'
-'d' becomes 'w', 'M' becomes 'N'
+'d' becomes 'w', 'M' becomes 'N' 
 
 and so on.
 
