@@ -43,7 +43,7 @@ int main(int argc, char **argv)
 			j = 0;
 			if(argv[1][i] >= 'A' && argv[1][i] <= 'Z')
 			{
-				while(j < (argv[1][i] - 64))
+				while(j < (argv[1][i]- 64))
 				{
 					write(1, &argv[1][i], 1);
 					j++;

@@ -3,7 +3,7 @@ Assignment name  : rev_print
 Expected files   : rev_print.c
 Allowed functions: write
 --------------------------------------------------------------------------------
-
+ 
 Write a program that takes a string, and displays the string in reverse
 followed by a newline.
 

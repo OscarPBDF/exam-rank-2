@@ -10,7 +10,7 @@ character.
 
 Your function must be declared as follows:
 
-void	ft_putstr(char *str);*/
+void	ft_putstr(char *str);*/ 
 
 #include <unistd.h>
 

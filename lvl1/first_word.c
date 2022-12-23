@@ -19,7 +19,7 @@ $> ./first_word "a" "b" | cat -e
 $
 $> ./first_word "  lorem,ipsum  " | cat -e
 lorem,ipsum$
-$>
+$> 
 ################################################################################*/
 
 #include <unistd.h>

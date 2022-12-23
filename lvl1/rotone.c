@@ -22,7 +22,7 @@ Mft tubhjbjsft ev tubgg of tfoufou qbt upvkpvst usft cpo.$
 $>./rotone "AkjhZ zLKIJz , 23y " | cat -e
 BlkiA aMLJKa , 23z $
 $>./rotone | cat -e
-$
+$ 
 $>
 $>./rotone "" | cat -e
 $
