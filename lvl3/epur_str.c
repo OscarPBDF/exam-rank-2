@@ -15,7 +15,7 @@ If the number of arguments is not 1, or if there are no words to display, the
 program displays \n.
 
 Example:
-
+ 
 $> ./epur_str "See? It's easy to print the same thing" | cat -e
 See? It's easy to print the same thing$
 $> ./epur_str " this        time it      will     be    more complex  . " | cat -e

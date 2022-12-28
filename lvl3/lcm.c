@@ -6,7 +6,7 @@ Allowed functions:
 
 Write a function who takes two unsigned int as parameters and returns the
 computed LCM of those parameters.
-
+ 
 LCM (Lowest Common Multiple) of two non-zero integers is the smallest postive
 integer divisible by the both integers.
 

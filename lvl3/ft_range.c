@@ -3,7 +3,7 @@ Assignment name  : ft_range
 Expected files   : ft_range.c
 Allowed functions: malloc
 --------------------------------------------------------------------------------
-
+ 
 Write the following function:
 
 int     *ft_range(int start, int end);

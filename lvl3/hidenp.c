@@ -23,7 +23,7 @@ $>./hidenp "abc" "2altrb53c.sse" | cat -e
 $>./hidenp "abc" "btarc" | cat -e
 0$
 $>./hidenp | cat -e
-$
+$ 
 $>
 */
 #include <unistd.h>

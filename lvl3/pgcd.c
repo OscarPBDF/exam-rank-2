@@ -13,7 +13,7 @@ strictly positive integer).
 If the number of parameters is not 2, display a newline.
 
 Examples:
-
+ 
 $> ./pgcd 42 10 | cat -e
 2$
 $> ./pgcd 42 12 | cat -e
