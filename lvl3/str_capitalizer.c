@@ -48,7 +48,7 @@ void    ft_capitalizer(char *str)
             write(1, &letter, 1);
 			i++;
 		}
-		else
+		else if(str[i])
 		{
 			write(1, &str[i], 1);
 			i++;
